@@ -46,19 +46,19 @@ def display_msg(msg, author):
 
 def configure_openai_api_key():
 
-    # st.sidebar.image("DSD logo.png", width=300)
-    # Open the image
-    image = Image.open("DSD logo.png")
+    # # st.sidebar.image("DSD logo.png", width=300)
+    # # Open the image
+    # image = Image.open("DSD logo.png")
 
-    # Resize the image
-    new_image = image.resize((300, 300))
+    # # Resize the image
+    # new_image = image.resize((300, 300))
 
-    # Display the resized image in the sidebar
-    st.sidebar.image(new_image, width=300)
-    st.sidebar.markdown(
-    "#### <a href='https://datasciencedojo.com/' style='color:light-blue;'>Powered by Data Science Dojo</a>",
-    unsafe_allow_html=True
-     )
+    # # Display the resized image in the sidebar
+    # st.sidebar.image(new_image, width=300)
+    # st.sidebar.markdown(
+    # "#### <a href='https://datasciencedojo.com/' style='color:light-blue;'>Powered by Data Science Dojo</a>",
+    # unsafe_allow_html=True
+    #  )
     openai_api_key = st.sidebar.text_input(
         label="OpenAI API Key",
         type="password",
